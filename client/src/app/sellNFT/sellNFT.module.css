@@ -1,0 +1,213 @@
+/* Container styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #780000, #003049 80%);
+  color: #fdf0d5;
+  padding: 20px;
+}
+
+/* Hero section */
+.heroSection {
+  text-align: center;
+  padding: 40px;
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  color: #00cffd;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.heroText {
+  font-size: 1.1rem;
+  color: #fdf0d5;
+  margin-bottom: 30px;
+}
+
+.heroImage {
+  max-width: 400px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+/* Inner container styling */
+.innerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Main content box styling */
+.content {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 400px;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+
+/* Not connected message */
+.notConnected {
+  font-size: 24px;
+  color: #ff6f61;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Heading styling */
+.heading {
+  font-size: 1.8rem;
+  color: #00cffd;
+  margin-top: 10px;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+/* Form layout */
+.Form {
+  margin-bottom: 20px;
+}
+
+/* Form content styling */
+.FormContent {
+  margin: 12px 0;
+}
+
+/* Label styling */
+.Label {
+  display: block;
+  text-align: start;
+  margin: 0 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  color:grey;
+  margin-bottom: 8px;
+}
+
+/* Input styling */
+.Input {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fdf0d5;
+  border: 1px solid #fdf0d5;
+  border-radius: 9px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.Input:focus {
+  border-color: #00cffd;
+}
+
+/* TextArea specific styling */
+.TextArea {
+  height: 100px;
+}
+
+/* Message styling */
+.msg {
+  color: #e63946;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Button styling */
+.btn {
+  border: none;
+  border-radius: 9px;
+  width: 100%;
+  margin-top: 16px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.inactivebtn {
+  background-color: #888;
+  color: #aaa;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.activebtn {
+  background-color: #e67e22;
+  color: #fff;
+  cursor: pointer;
+}
+
+.activebtn:hover {
+  background-color: #a15818;
+}
+
+/* Spinner animation */
+.spinner {
+  display: inline-block;
+  border: 4px solid #aaa;
+  border-left-color: #fff;
+  border-radius: 50%;
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 40px 20px;
+  gap: 40px;
+  flex-wrap: wrap; /* Allow wrapping for responsiveness */
+}
+
+.heroText {
+  max-width: 750px;
+}
+
+.heading {
+  font-size: 2rem;
+  line-height: 1.1;
+  font-weight: 800;
+  color:black;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 2.5rem;
+  color: #fdf0d5;
+}

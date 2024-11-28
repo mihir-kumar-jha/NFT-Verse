@@ -1,0 +1,75 @@
+.header {
+  padding: 16px 32px;
+  background: linear-gradient(90deg, rgba(193, 18, 31, 0.8), rgba(0, 0, 0, 0.8)); /* Red to black gradient with transparency */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Subtle shadow to add depth */
+  backdrop-filter: blur(10px); /* Adds a frosted glass effect */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.navLinks li {
+  font-size: 1.1rem;
+}
+
+.link {
+  color: #fdf0d5; /* Soft light color for links */
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.3s ease, transform 0.2s;
+}
+
+.link:hover {
+  color: #669bbc; /* Hover color using the specified blue */
+  transform: translateY(-2px);
+}
+
+.ctaBtn {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #fdf0d5;
+  transition: background-color 0.3s ease, box-shadow 0.3s;
+}
+
+.inactivebtn {
+  background-color: rgba(102, 155, 188, 0.8); /* Blue color with transparency */
+  box-shadow: 0 4px 10px rgba(102, 155, 188, 0.4); /* Subtle glow on button */
+  color: #003049; /* Dark color text on button */
+}
+
+.inactivebtn:hover {
+  background-color: rgba(102, 155, 188, 1);
+  box-shadow: 0 4px 12px rgba(102, 155, 188, 0.6);
+}
+
+.activebtn {
+  background-color: rgba(120, 0, 0, 0.8); /* Dark red for active button */
+  color: #fdf0d5;
+  box-shadow: 0 4px 10px rgba(120, 0, 0, 0.4); /* Glow effect */
+}
+
+.activebtn:hover {
+  cursor: default;
+  box-shadow: none;
+}
